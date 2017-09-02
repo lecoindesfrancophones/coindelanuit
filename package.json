@@ -13,7 +13,8 @@
         "bcryptjs": "~2.3.0",
         "moment": "~2.10.6",
         "request": "~2.69.0",
-        "cors": "~2.8.1"
+        "cors": "~2.8.1",
+        "colors": "~1.1.2"
     },
     "scripts": {
 		"start": "node server.js"
