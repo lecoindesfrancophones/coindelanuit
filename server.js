@@ -5,3 +5,4 @@ var app 	= express();
 app.listen(8080);
 
 console.log(colors.green('Server running'));
+console.log(process.env.MYSQL_USER);
