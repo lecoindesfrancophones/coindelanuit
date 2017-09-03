@@ -6,6 +6,6 @@ app.listen(8080);
 
 console.log(colors.green('Server running'));
 console.log(process.env);
-console.log(process.env.mysql_SERVICE_HOST);
-console.log(process.env.DATABASE_USER);
-console.log(process.mysql_SERVICE_HOST);
+console.log('mp: '+process.env.MYSQL_PORT);
+console.log('msp: '+process.env.MYSQL_SERVICE_PORT);
+console.log('msh: '+process.env.MYSQL_SERVICE_HOST);
